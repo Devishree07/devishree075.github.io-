@@ -1,0 +1,128 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    
+}
+
+header .head 
+{
+    background-image: url('285ea2b48cee0319942a98369c8a67b4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .head h1
+{
+    font-size: 45px;
+    margin: 0;
+    font-weight: 300px;
+}
+header .head h3{
+    font-size: 30px;
+    margin: 0;
+}
+.book1 img
+{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.book1
+{
+  display: flex;
+    background: white;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 70%;
+   margin-left:15%;
+   font-variant: small-caps;
+   transition: transform 0.2s ease;
+}
+.book1:hover {
+    transform: scale(1.1);
+}
+.info h4{
+    margin: 0;
+    font-size: 1.5em;
+}
+.info p{
+    margin: 10px 0;
+}
+footer
+{
+    margin: 0;
+    background-color: rgb(77, 34, 34);
+    height: 200px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.fa {
+   
+    text-decoration: none;
+    color: white;
+}
+.bbb {
+    margin: 30px;
+}
+.bbb:hover
+{
+    display: inline-block;
+    color:#338;
+    text-decoration: underline;
+}
+marquee
+{
+    font-size: 20px;
+}
+.home-button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: rgb(77, 34, 34);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.home-button:hover {
+    background-color:black;
+}
+.reviews
+{
+    margin: 20px;
+    outline: none;
+}
+.reviews:hover
+{
+    color: brown;
+}
+#ree:hover
+{
+    box-shadow:rgb(77, 34, 34);
+    border-color: rgb(77, 34, 34); 
+    box-shadow: 0 0 5px rgb(77, 34, 34); 
+    outline: none; 
+    
+}
+button
+{
+    border-radius: 5px;
+    background-color:  rgb(77, 34, 34);
+    color: white;
+}
